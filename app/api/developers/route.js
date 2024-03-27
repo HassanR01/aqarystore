@@ -7,4 +7,4 @@ export async function POST(req) {
     await connectMongoDB()
     await Developer.create({ name, description, projects, properties, visitors })
     return NextResponse.json({ message: 'Developer created' }, { status: 200 })
-}
+}   
