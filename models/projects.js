@@ -3,6 +3,7 @@ import mongoose, { Schema } from "mongoose";
 const projectSchema = new Schema({
     title: String,
     category: String,
+    image: String,
     startBudget: Number,
     description: String,
     developer: String,

@@ -16,9 +16,9 @@ module.exports = {
         mainFont: ['Tajawal'],
       },
       colors: {
-        bgColor: '#EFFFFD',
-        mainColor: '#42C2FF',
-        textColor: '#0E185F',
+        bgColor: '#F6F8FA',
+        mainColor: '#2286FE',
+        textColor: '#243148',
       }
     },
   },

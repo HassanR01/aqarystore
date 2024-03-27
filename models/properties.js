@@ -3,6 +3,7 @@ import mongoose, { Schema, mongo } from "mongoose";
 const propertySchema = new Schema({
     title: String,
     category: String,
+    image: String,
     bathrooms: Number,
     bedrooms: Number,
     area: Number,

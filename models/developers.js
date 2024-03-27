@@ -3,6 +3,7 @@ import mongoose, { Schema } from "mongoose";
 const developerSchema = new Schema({
     name: String,
     description: String,
+    image: String,
     projects: [{
         name: String
     }],
